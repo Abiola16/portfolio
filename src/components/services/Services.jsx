@@ -94,7 +94,7 @@ const Services = () => {
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Front-End Frameworks: Utilizing frameworks like React, Angular, or Vue.js for efficient development.</p>
+                                    <p className="services__modal-info">Front-End Frameworks: Utilizing frameworks like React for efficient development.</p>
                                 </li>
 
                                 <li className="services__modal-service">
