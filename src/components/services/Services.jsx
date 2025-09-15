@@ -40,10 +40,10 @@ const Services = () => {
                                     <p className="services__modal-info">Print Collateral: Designing brochures, flyers, posters, and other printed materials.</p>
                                 </li>
 
-                                <li className="services__modal-service">
+                                {/* <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
                                     <p className="services__modal-info">Web Graphics: Creating web banners, icons, and visuals to enhance online presence.</p>
-                                </li>
+                                </li> */}
 
                                 {/* <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
@@ -52,9 +52,7 @@ const Services = () => {
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Business Cards: Designing professional and eye-catching business card layouts.
-
-</p>
+                                    <p className="services__modal-info">Business Cards: Designing professional and eye-catching business card layouts.</p>
                                 </li>
                             </ul>
                         </div>
@@ -64,7 +62,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"><ChevronsLeftRight /></i>
-                        <h3 className="services__title">Frontend<br/>Developing</h3>
+                        <h3 className="services__title">Full-Stack<br/>Developing</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right services__button-icon"><MoveRight height={20}/></i></span>
@@ -74,42 +72,32 @@ const Services = () => {
                             <i  onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"><X height={16}/></i>
 
                             <h3 className="services__modal-title">Frontend Developing</h3>
-                            <p className="services__modal-description">Enhance Your Online Presence with These Front-End Development Services</p>
+                            <p className="services__modal-description">Enhance Your Online Presence with These Full-Stack Development Services</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">User Interface (UI) Development: Crafting visually appealing and intuitive user interfaces.</p>
+                                    <p className="services__modal-info">Full-Stack Web Development: Building responsive, dynamic websites with seamless front-end and back-end integration.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Responsive Web Design: Ensuring websites adapt seamlessly to various screen sizes and devices.</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Interactive Features: Implementing dynamic elements such as forms, animations, and user interactivity. </p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Front-End Frameworks: Utilizing frameworks like React for efficient development.</p>
+                                    <p className="services__modal-info">API & Database Management: Designing RESTful APIs and managing databases for scalable and secure applications.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"><CheckCircle2 /></i>
-                                    <p className="services__modal-info">Optimizing Website Performance: Enhancing website speed and efficiency for an improved user experience.</p>
+                                    <p className="services__modal-info">Performance & Deployment: Optimizing speed, ensuring cross-device compatibility, and deploying on modern platforms like Vercel</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                {/* <div className="services__content">
+                <div className="services__content">
                     <div>
-                        <i className="uil uil-edit services__icon"><PenSquare /></i>
-                        <h3 className="services__title">Visual<br /> designer</h3>
+                        <i className="uil uil-edit services__icon"><Film /></i>
+                        <h3 className="services__title">Video<br /> Editing</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right services__button-icon"><MoveRight height={20}/></i></span>
@@ -118,38 +106,28 @@ const Services = () => {
                         <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"><X height={16}/></i>
 
-                            <h3 className="services__modal-title">Visual designer</h3>
-                            <p className="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos dolorum sed fuga incidunt ipsa autem voluptates </p>
+                            <h3 className="services__modal-title">Video Editing</h3>
+                            <p className="services__modal-description">Bring your ideas to life with professional video editing, motion graphics, and sound design services.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">I do product design</p>
+                                    <p className="services__modal-info">Video Editing & Post-Production: Crafting polished videos with clean cuts, smooth transitions, and color correction.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Web page development</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">I do fdhbZA things </p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">I do bcxbhhdxfnbfd things </p>
+                                    <p className="services__modal-info">Motion Graphics & Effects: Adding engaging animations, text overlays, and visual effects to enhance storytelling.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"><CheckCircle2 /></i>
-                                    <p className="services__modal-info">I do things </p>
+                                    <p className="services__modal-info">Sound Design & Optimization: Mixing audio, syncing voiceovers, and enhancing sound quality for a professional finish.</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
             </div>
         </section>

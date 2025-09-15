@@ -20,7 +20,7 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className="footer__social">
-                    <a href="https://whatsapp.com/dl/" className="footer__social-link" target="_blank">
+                    <a href="https://wa.me/2348083450646" className="footer__social-link" target="_blank">
                         <Phone width={20} />
                     </a>
 

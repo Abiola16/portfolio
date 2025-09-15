@@ -1,14 +1,14 @@
-import Work1 from "../../assets/lolaniyi.jpg";
-import Work2 from "../../assets/bernard.jpg";
-import Work3 from "../../assets/cakeworld.jpg";
-import Work4 from "../../assets/mujeebstores.jpg";
-import Work5 from "../../assets/softwaretest.jpg";
-import Work6 from "../../assets/cakeworlbc.jpg";
-import Work7 from "../../assets/lolaniyibc.jpg";
-import Work8 from "../../assets/luxury.jpg";
-import Work9 from "../../assets/minimal.png";
-import Work10 from "../../assets/otf.jpg";
-import Work11 from "../../assets/rapupbc.jpg";
+import Work1 from "../../assets/kunmiithe grapher.png";
+import Work2 from "../../assets/cakeworlbc.jpg";
+import Work3 from "../../assets/bernard shoes.png";
+import Work4 from "../../assets/cakes world.png";
+import Work5 from "../../assets/lolaniyibc.jpg";
+import Work6 from "../../assets/minimal.png";
+import Work7 from "../../assets/lolaniyi ventures.png";
+import Work8 from "../../assets/lolaniyi venturesss.png";
+import Work9 from "../../assets/otf.jpg";
+import Work10 from "../../assets/rapupbc.jpg";
+import Work11 from "../../assets/mujeeb stores.png";
 
 
 export const projectsData = [
