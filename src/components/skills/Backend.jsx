@@ -4,7 +4,7 @@ import { BadgeCheck } from 'lucide-react';
 const Backend = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Graphics Design</h3>
+            <h3 className="skills__title">Graphics Designing & Video editing</h3>
 
             <div className="skills__box">
                 <div className="skills__group center">
@@ -14,7 +14,7 @@ const Backend = () => {
 
                         <div>
                             <h3 className="skills__name">Canva</h3>
-                            <span className="skills__level">Advanced</span>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                     
@@ -22,17 +22,8 @@ const Backend = () => {
                         <i className="bx bx-badge-check"><BadgeCheck /></i>
 
                         <div>
-                            <h3 className="skills__name">Corel Draw</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className="bx bx-badge-check"><BadgeCheck /></i>
-
-                        <div>
-                            <h3 className="skills__name">Adobe Illustrator</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">Adobe Premeire Pro 2025</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 

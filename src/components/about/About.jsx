@@ -18,7 +18,7 @@ const About = () => {
                     {/* <Info /> */}
 
                     <p className="about__description">
-                    My name Mujeeb Adewuyi and i am a versatile professional based in Lagos, with expertise as both a front-end web developing and a graphic designing. I am deeply passionate about my work, dedicated to creating captivating web experiences and stunning visual designs.
+                    My name is Mujeeb Adewuyi, a versatile professional based in Lagos, with expertise in full-stack web development, along with experience in graphic design and video editing. While my primary strength lies in web development, I also enjoy working on creative projects that involve design and editing, continually improving my skills in those areas.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV

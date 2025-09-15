@@ -66,6 +66,7 @@ const Data = () => {
             multiText={[
               'Web Developer',
               'Graphics Designer',
+              'Video Editor',
             ]}
             multiTextDelay={1000}
             typeSpeed={50}
