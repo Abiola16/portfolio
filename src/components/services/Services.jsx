@@ -96,7 +96,7 @@ const Services = () => {
 
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-edit services__icon"><Film /></i>
+                        <i className="uil uil-edit services__icon"><PenSquare /></i>
                         <h3 className="services__title">Video<br /> Editing</h3>
                     </div>
 
