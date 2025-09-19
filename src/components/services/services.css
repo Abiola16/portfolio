@@ -137,6 +137,15 @@
   }
   
   /* For small devices */
+  @media screen and (max-width: 426px) {
+     .services__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .services__content{
+        padding-right: 6rem;
+    }
+  }
+
   @media screen and (max-width: 350px) {
     .services__container{
         grid-template-columns: max-content;
@@ -145,19 +154,5 @@
         padding-right: 6rem;
     }
   }
-
-
-
-
-
-
-
-/* 
-  Bring your ideas to life with professional video editing, motion graphics, and sound design services.
-
-  Video Editing & Post-Production: Crafting polished videos with clean cuts, smooth transitions, and color correction.
-
-  Motion Graphics & Effects: Adding engaging animations, text overlays, and visual effects to enhance storytelling.
-
-  Sound Design & Optimization: Mixing audio, syncing voiceovers, and enhancing sound quality for a professional finish. */
+  
    
