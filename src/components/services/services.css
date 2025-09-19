@@ -138,8 +138,9 @@
   
   /* For small devices */
   @media screen and (max-width: 426px) {
-     .services__container{
-        grid-template-columns: repeat(2, 1fr);
+      .services__container {
+        grid-template-columns: 1fr; 
+        gap: 1.5rem; 
     }
     .services__content{
         padding-right: 6rem;
