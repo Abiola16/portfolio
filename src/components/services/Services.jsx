@@ -40,16 +40,6 @@ const Services = () => {
                                     <p className="services__modal-info">Print Collateral: Designing brochures, flyers, posters, and other printed materials.</p>
                                 </li>
 
-                                {/* <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Web Graphics: Creating web banners, icons, and visuals to enhance online presence.</p>
-                                </li> */}
-
-                                {/* <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">I do things asfvasegveve</p>
-                                </li> */}
-
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
                                     <p className="services__modal-info">Business Cards: Designing professional and eye-catching business card layouts.</p>
@@ -96,15 +86,15 @@ const Services = () => {
 
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-edit services__icon"><PenSquare /></i>
-                        <h3 className="services__title">Video<br /> Editing</h3>
+                        <i className="uil uil-arrow services__icon"><ChevronsLeftRight /></i>
+                        <h3 className="services__title">Video<br/>Editing</h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right services__button-icon"><MoveRight height={20}/></i></span>
+                    <span className="services__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right services__button-icon"><MoveRight height={20}/></i></span>
 
-                    <div className="services__modal">
-                        <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
-                            <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"><X height={16}/></i>
+                    <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+                        <div className="services__modal-content">
+                            <i  onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"><X height={16}/></i>
 
                             <h3 className="services__modal-title">Video Editing</h3>
                             <p className="services__modal-description">Bring your ideas to life with professional video editing, motion graphics, and sound design services.</p>
@@ -112,7 +102,8 @@ const Services = () => {
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> <CheckCircle2 /></i>
-                                    <p className="services__modal-info">Video Editing & Post-Production: Crafting polished videos with clean cuts, smooth transitions, and color correction.</p>
+                                    <p className="services__modal-info">  Video Editing & Post-Production: Crafting polished videos with clean cuts, smooth transitions, and color correction.
+                                    </p>
                                 </li>
 
                                 <li className="services__modal-service">
@@ -129,6 +120,7 @@ const Services = () => {
                     </div>
                 </div>
 
+                
             </div>
         </section>
     );
